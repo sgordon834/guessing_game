@@ -1,0 +1,25 @@
+/*
+selctor {
+  property: value:
+  property: value:
+}  */
+
+/*By Element*/
+body {
+  color: red;
+  font-family: helvetica;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/*By Class*/
+.classOne {
+
+}
+
+.classTwo
+/*By ID*/
+
+#idOne {
+
+}
