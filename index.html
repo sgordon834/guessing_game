@@ -83,15 +83,19 @@
             // } -->
 
             var whichState = prompt('What is your favorite programming language?');
-            var userAnswer = ['java', 'python', 'javascript'];
+            var userAnswer = ['js', 'python', 'java'];
+
+            //
+            //
             // userAnswer.indexof(javascript);
             // userAnswer.indexof(python);
             // userAnswer.indexof(java);
-
-            if (userAnswer.indexof(whichState)) {
+            if (userAnswer.indexOf(whichState) > -1) {
               alert('You\'re on your way to tech greatness!');
-            } else {
+              console.log('Programming is fundamental using!');
+            } else if (userAnswer.indexOf(whichState) === -1){
               alert('Learn to code or stay in yesteryear!');
+              console.log(userAnswer.indexOf(whichState));
           }
           </script>
     </main>
