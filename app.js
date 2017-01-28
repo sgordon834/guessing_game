@@ -47,19 +47,19 @@
     //     alert('Oh no, that is incorrect.');
     // } -->
 
-    var whichState = prompt('What is your favorite programming language?');
-    var userAnswer = ['js', 'python', 'java'];
-
-    //console.log(userAnswer.indexOf(whichState));
-    //
-    // userAnswer.indexof(javascript);
-    // userAnswer.indexof(python);
-    // userAnswer.indexof(java);
-    if (userAnswer.indexOf(whichState) > -1) {
-      alert('You\'re on your way to tech greatness!');
-
-    } else if (userAnswer.indexOf(whichState) === -1){
-      alert('Learn to code or stay in yesteryear!');
-      console.log('Programming is fundamental using coding skills!');
-  }
-  </script>
+  //   var whichState = prompt('What is your favorite programming language?');
+  //   var userAnswer = ['js', 'python', 'java'];
+  //
+  //   //console.log(userAnswer.indexOf(whichState));
+  //   //
+  //   // userAnswer.indexof(javascript);
+  //   // userAnswer.indexof(python);
+  //   // userAnswer.indexof(java);
+  //   if (userAnswer.indexOf(whichState) > -1) {
+  //     alert('You\'re on your way to tech greatness!');
+  //
+  //   } else if (userAnswer.indexOf(whichState) === -1){
+  //     alert('Learn to code or stay in yesteryear!');
+  //     console.log('Programming is fundamental using coding skills!');
+  // }
+  // </script>
