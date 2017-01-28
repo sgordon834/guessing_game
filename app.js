@@ -5,8 +5,10 @@ var userName = prompt('what\'s is your name?');
 
 alert('Hello ' + userName + '.  Thank you for visiting to my site!');
 
-var answerOne = prompt('Is Washington the \'Show Me State\'?');
-var myAnswerOne = 'no'.toLowerCase();
+console.log(userName);
+
+var answerOne = prompt('Is Washington the \'Show Me State\'?').toLowerCase();
+var myAnswerOne = 'no';
 
 if (answerOne === myAnswerOne) {
 
@@ -17,8 +19,8 @@ if (answerOne === myAnswerOne) {
     alert('Sorry, that\'s wrong, try again!');
 }
 
-var answerTwo = prompt('Does a cat purr?');
-var myAnswerTwo = 'yes'.toLowerCase();
+var answerTwo = prompt('Does a cat purr?').toLowerCase();
+var myAnswerTwo = 'yes';
 if (answerTwo === myAnswerTwo) {
 
     alert('Right again!');
@@ -28,8 +30,8 @@ if (answerTwo === myAnswerTwo) {
     alert('Sorry, that\'s wrong, maybe next time!');
 }
 
-var answerThree = prompt('Was President Reagan an actor?');
-var myAnswerThree = 'yes'.toLowerCase();
+var answerThree = prompt('Was President Reagan an actor?').toLowerCase();
+var myAnswerThree = 'yes';
 if (answerThree === myAnswerThree) {
 
     alert('You are a genious, right on!');
@@ -39,8 +41,8 @@ if (answerThree === myAnswerThree) {
     alert('Oh no, that is incorrect.');
 }
 
-var answerThree = prompt('Are lions purple?');
-var myAnswerThree = 'no'.toLowerCase();
+var answerThree = prompt('Are lions purple?').toLowerCase();
+var myAnswerThree = 'no';
 if (answerThree === myAnswerThree) {
 
     alert('Way to go, that\'s right!');
@@ -69,9 +71,9 @@ if (userAnswer.indexOf(whichLang) > -1) {
 
 //  Logical Or question
 
-var answerOne = prompt('Is the moon round? (y or yes/n or no)');
-var myAnswerOne = 'yes'.toLowerCase();
-var myAnswerTwo = 'y'.toLowerCase();
+var answerOne = prompt('Is the moon round? (y or yes/n or no)').toLowerCase();
+var myAnswerOne = 'yes';
+var myAnswerTwo = 'y';
 
 if (answerOne === myAnswerOne || answerOne === myAnswerTwo) {
 
