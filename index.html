@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <title>Bio About Me.</title>
 </head>
@@ -15,6 +16,7 @@
         <p>I am retired military veteran (Coast Guard) and currently work as a support engineer. I am enrolled as a student at Code Fellows, the ultimate coding bootcamp. I aspire to be a developer due to my love of tech and solving puzzles or problems.</p>
 
         <h4>Education and Training</h1>
+
         <u>
           <li>Garfield High</li>
           <li>University of Phoenix, BSIT</li>
@@ -31,48 +33,58 @@
          <li>Norfolk, VA</li>
        </u>
 
-<!-- Script to obtain user input -->
-<!-- <script src="app.jss"></script> -->
-        <script>
-            var userName = prompt('what\'s is your name?');
+        <h1>Guessing Game</h1>
+
+        <p class="game">Is Washington the known as the 'Show Me State?'</p>
+        <p class="game">Does a cat Purr</p>
+        <p class="game">Was President Reagan an actor?</p>
+        <p class="game">Are lions purple?</p>
+
+        <!-- Script to obtain user input -->
+        <!-- <script src="app.js"> -->
+
+            // Start of N1 js. 4 questions
+          <script>
+            var userName = prompt('What is your name?');
 
             alert('Hello ' + userName + '.  Thank you for visiting to my site!');
 
-            var answerOne = prompt('What state was I born in?');
-            var myAnswerOne = 'Washington'.toLowerCase();
+            var answerOne = prompt('Is Washington known as the \'Show Me State\'?');
+            var myAnswerOne = 'no'.toLowerCase();
+
             if (answerOne === myAnswerOne) {
 
-                alert('Yes! that is correct.');
+                alert('You got it right, you rock!');
 
             } else {
 
-                alert('That\'s not correct, I was born in Washington');
+                alert('Sorry, that\'s wrong, try again!');
             }
 
-            var answerTwo = prompt('What military branch did I serve in?');
-            var myAnswerTwo = 'coast guard';
+            var answerTwo = prompt('Does a cat purr?');
+            var myAnswerTwo = 'yes'.toLowerCase();
             if (answerTwo === myAnswerTwo) {
 
-                alert('You got it right!');
+                alert('Right again!');
 
             } else {
 
-                alert('Sorry, that\'s wrong, I was in the Coast Guard');
+                alert('Sorry, that\'s wrong, maybe next time!');
             }
 
-            var answerThree = prompt('Where am I a student at?');
-            var myAnswerThree = 'code fellows';
+            var answerThree = prompt('Was President Reagan an actor?');
+            var myAnswerThree = 'yes'.toLowerCase();
             if (answerThree === myAnswerThree) {
 
-                alert('You are smart, right on!');
+                alert('You are a genious, right on!');
 
             } else {
 
                 alert('Oh no, that is incorrect.');
             }
 
-            var answerThree = prompt('What do I aspire to be?');
-            var myAnswerThree = 'developer';
+            var answerThree = prompt('Are lions purple?');
+            var myAnswerThree = 'no'.toLowerCase();
             if (answerThree === myAnswerThree) {
 
                 alert('Way to go, that\'s right!');
@@ -82,24 +94,38 @@
                 alert('Oh no, that is incorrect.');
             }
 
-            var whichState = prompt('What is your favorite programming language?');
-            var userAnswer = ['js', 'python', 'java'];
+            //          Start of N2 Array and Comparators. 2 questions.
 
-            //console.log(userAnswer.indexOf(whichState));
-            //
-            // userAnswer.indexof(javascript);
-            // userAnswer.indexof(python);
-            // userAnswer.indexof(java);
-            if (userAnswer.indexOf(whichState) > -1) {
-              alert('You\'re on your way to tech greatness!');
-              console.log('Programming is fundamental using coding skills!');
+            //            Array question
 
-            } else if (userAnswer.indexOf(whichState) === -1){
-              alert('Learn to code or stay in yesteryear!');
-              console.log('Try out Code Fellows to exercise your brain!')
+            var whichLang = prompt('What is your favorite programming language?');
+            var userAnswer = ['js', 'python', 'java', 'c'];
 
-          }
-          </script>
+            if (userAnswer.indexOf(whichLang) > -1) {
+                alert('You\'re on your way to tech greatness!');
+                console.log('Programming is fundamental using coding skills!');
+
+            } else if (userAnswer.indexOf(whichLang) === -1) {
+                alert('Learn to code or stay in yesteryear!');
+                console.log('Try out Code Fellows to exercise your brain!')
+
+            }
+
+            // Logical Or question
+
+            var answerOne = prompt('Is the moon round? (y or yes/n or no)');
+            var myAnswerOne = 'yes'.toLowerCase();
+            var myAnswerTwo = 'y'.toLowerCase();
+
+            if (answerOne === myAnswerOne || answerOne === myAnswerTwo) {
+
+                alert('Whoopee! that is correct.');
+
+            } else {
+
+                alert('That\'s not correct, try again.');
+            }
+        </script>
     </main>
 
     <footer class="footer">

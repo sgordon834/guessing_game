@@ -20,3 +20,9 @@ body {
   background-image:  url(https://lh5.ggpht.com/XLIKXgODVN-FPH29spgaxwlelTtAdzwWuwYtXU2oKEt8c48cG3BvbHY9Y7VBLDGe6tyW=h900);
   background-repeat: repeat;
 }
+
+.game {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
