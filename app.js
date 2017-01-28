@@ -1,6 +1,4 @@
-// <!-- Script to obtain user input
-
-
+// Script to obtain user input
 // Start of N1 js. 4 questions
 
 var userName = prompt('what\'s is your name?');
