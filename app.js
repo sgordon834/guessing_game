@@ -69,7 +69,7 @@
 //
 // }
 //
-// //  Logical Or question
+// Question 6  Logical Or question
 //
 // var answerOne = prompt('Is the moon round? (y or yes/n or no)').toLowerCase();
 // var myAnswerOne = 'yes';
@@ -84,39 +84,28 @@
 //     alert('That\'s not correct, try again.');
 // }
 //
-// var corrNumb = (42).toString();
-// var userNumb = prompt('Select a number between 1 and 100');
-// console.lgo('HELLO~~~~~~~~~');
-//
-// if(userNumb > corrNumb){
-//   userNumb = prompt('That\s too high!');
-// }else if(userNumb < corrNumb){
-//   userNumb = prompt('That\'s too low!');
-// }else(userNumb === corrNumb) {
-//   alert('Bingo!');
 
+//Question 7
 
-
-var num = 14;
+var num = 15;
 var corrNumb = num.toString();
 var countAtt = 0;
 
-while(countAtt < 4){
+while(countAtt < 5){
   countAtt++;
   var userNumb = prompt('Select a number between 1 - 25 (you have 4 guesses).');
 
-  if(userNumb > corrNumb){
+  if(userNumb === corrNumb){
+    alert('That\'s right!!!.');
+    break;
+
+  }if(userNumb > corrNumb){
     alert('That\'s too high, try again.');
 
   }if(userNumb < corrNumb){
-    alert('That\'s too low, try again');
+    alert('That\'s too low, try again.');
 
-  }if(userNumb === corrNumb) {
-    alert('That\'s right!');
-    break;
-
-  }if(countAtt === 4) {
+  }if(countAtt === 5) {
     alert('Sorry that was the last guess.');
   }
 }
-console.log(userNumb);

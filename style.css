@@ -1,12 +1,7 @@
-  .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: navy;
-  text-align: center;
-  color: yellow;
+body {
+  color: white;
+  background-image:  url(https://lh5.ggpht.com/XLIKXgODVN-FPH29spgaxwlelTtAdzwWuwYtXU2oKEt8c48cG3BvbHY9Y7VBLDGe6tyW=h900);
+  background-repeat: repeat;
 }
 
 h1 {
@@ -15,14 +10,21 @@ h1 {
   font-family: impact;
 }
 
-body {
-  color: white;
-  background-image:  url(https://lh5.ggpht.com/XLIKXgODVN-FPH29spgaxwlelTtAdzwWuwYtXU2oKEt8c48cG3BvbHY9Y7VBLDGe6tyW=h900);
-  background-repeat: repeat;
-}
+
 
 .game {
   color: red;
   text-align: center;
   font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: navy;
+  text-align: center;
+  color: yellow;
 }
