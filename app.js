@@ -87,25 +87,73 @@
 
 //Question 7
 
-var num = 15;
-var corrNumb = num.toString();
-var countAtt = 0;
+// var num = 15;
+// var corrNumb = num.toString();
+// var countAtt = 0;
+//
+// while(countAtt < 5){
+//   countAtt++;
+//   var userNumb = prompt('Select a number between 1 - 25 (you have 4 guesses).');
+//
+//   if(userNumb === corrNumb){
+//     alert('That\'s right!!!.');
+//     break;
+//
+//   }if(userNumb > corrNumb){
+//     alert('That\'s too high, try again.');
+//
+//   }if(userNumb < corrNumb){
+//     alert('That\'s too low, try again.');
+//
+//   }if(countAtt === 5) {
+//     alert('Sorry that was the last guess.');
+//   }
+// }
 
-while(countAtt < 5){
-  countAtt++;
-  var userNumb = prompt('Select a number between 1 - 25 (you have 4 guesses).');
+// Question 8
+var count = 0;
+var arr = ['florida', 'new jersey', 'hawaii', 'alaska', 'virginia', 'arizona'];
+// for(i = 0; i < arr.length; i++){
+//   console.log(arr[i]);
+// }
+while (count < 6) {
+  count++;
+  var userGuess = prompt('Name a State I have lived in besides Washington. You have 6 tries.');
 
-  if(userNumb === corrNumb){
-    alert('That\'s right!!!.');
+  if (userGuess === 'florida') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
     break;
 
-  }if(userNumb > corrNumb){
-    alert('That\'s too high, try again.');
+  }
+  if (userGuess === 'new jersey') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
+    break;
+  }
+  if (userGuess === 'hawaii') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
+    break;
 
-  }if(userNumb < corrNumb){
-    alert('That\'s too low, try again.');
-
-  }if(countAtt === 5) {
-    alert('Sorry that was the last guess.');
+  }
+  if (userGuess === 'alaska') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
+    break;
+  }
+  if (userGuess === 'new jersey') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
+    break;
+  }
+  if (userGuess === 'new jersey') {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
+    break;
+  }
+  if (count === 6) {
+    for (i = 0; i < arr.length; i++)
+    alert(arr[i]);
   }
 }
