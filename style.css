@@ -5,21 +5,37 @@ body {
 }
 
 h1 {
-  text-align: center;
+  text-align: right;
   color: orange;
   font-family: impact;
 }
 
+h2 {
+  color: yellow;
+  font-family: fantasy;
 
+}
+
+ol {
+  color: yellow;
+  font-family: fantasy;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .game {
   color: red;
-  text-align: center;
+  text-align: right;
   font-weight: bold;
 }
 
 .footer {
-  position: absolute;
+  position: relative;;
   right: 0;
   bottom: 0;
   left: 0;
@@ -27,4 +43,10 @@ h1 {
   background-color: navy;
   text-align: center;
   color: yellow;
+}
+
+#sidney {
+  text-align: center;
+  color: orange;
+  font-family: impact;
 }
