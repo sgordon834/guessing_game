@@ -182,7 +182,7 @@ if (toScor === 8) {
 
 }if (toScor === 6) {
 
-  alert('You got 6 of 8 correct, ' + userName + ' r.');
+  alert('You got 6 of 8 correct, ' + userName + ' nice try.');
 
 }if (toScor === 5) {
 
