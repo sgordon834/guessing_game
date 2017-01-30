@@ -1,5 +1,41 @@
+body {
+  color: white;
+  background-image:  url(https://lh5.ggpht.com/XLIKXgODVN-FPH29spgaxwlelTtAdzwWuwYtXU2oKEt8c48cG3BvbHY9Y7VBLDGe6tyW=h900);
+  background-repeat: repeat;
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+  font-family: impact;
+}
+
+h2 {
+  color: yellow;
+  font-family: fantasy;
+
+}
+
+ol {
+  color: yellow;
+  font-family: fantasy;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game {
+  color:  black;
+  text-align: center;
+  font-weight: bold;
+}
+
 .footer {
-  position: absolute;
+  position: relative;;
   right: 0;
   bottom: 0;
   left: 0;
@@ -9,20 +45,13 @@
   color: yellow;
 }
 
-h1 {
+.movie {
+  border-top: 1px solid beige;
+  padding: 10px;
+}
+
+#sidney {
   text-align: center;
   color: orange;
   font-family: impact;
-}
-
-body {
-  color: white;
-  background-image:  url(https://lh5.ggpht.com/XLIKXgODVN-FPH29spgaxwlelTtAdzwWuwYtXU2oKEt8c48cG3BvbHY9Y7VBLDGe6tyW=h900);
-  background-repeat: repeat;
-}
-
-.game {
-  color: red;
-  text-align: center;
-  font-weight: bold;
 }
