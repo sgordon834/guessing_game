@@ -13,12 +13,14 @@ var myAnswerOne = 'no';
 if (answerOne === myAnswerOne) {
 
   alert('You got it right, you rock!');
-//   quesCor++;
-//   toScor++;
-// console.log(quesCor);
+  //Broken Code
+  //   quesCor++;
+  //   toScor++;
+  // console.log(quesCor);
 } else {
 
   alert('Sorry, that\'s wrong, try again!');
+  //Broken Code
   // toSco++;
 }
 // Question 2
@@ -27,7 +29,6 @@ var myAnswerTwo = 'comics';
 if (answerTwo === myAnswerTwo) {
 
   alert('Right again!');
-  // quesCor++;
 
 } else {
 
@@ -44,7 +45,6 @@ if (answerThree === myAnswerThree) {
 
   alert('Oh no, that is incorrect.');
 }
-
 var answerFour = prompt('Who is Mario\'s girlfriend from Donkey Kong?')
 var myAnswerFour = 'pauline';
 if (answerFour === myAnswerFour) {
@@ -55,9 +55,7 @@ if (answerFour === myAnswerFour) {
 
   alert('Oh no, that is incorrect.');
 }
-
 // Question 5
-
 var whichLang = prompt('What is your favorite programming language?');
 var userAnswer = ['js', 'python', 'java', 'c'];
 
@@ -70,9 +68,7 @@ if (userAnswer.indexOf(whichLang) > -1) {
   console.log('Try out Code Fellows to exercise your brain!')
 
 }
-
 // Question 6
-
 var answerOne = prompt('Is the moon round? (y or yes/n or no)').toLowerCase();
 var myAnswerOne = 'yes';
 var myAnswerTwo = 'y';
@@ -85,31 +81,31 @@ if (answerOne === myAnswerOne || answerOne === myAnswerTwo) {
 
   alert('That\'s not correct, try again.');
 }
-
-
 // Question 7
-
 var num = 15;
 var corrNumb = num.toString();
 var countAtt = 0;
 
-console.log(num);
+// console.log(num);
 
-while(countAtt < 5){
+while (countAtt < 5) {
   countAtt++;
   var userNumb = prompt('Select a number between 1 - 25 (you have 4 guesses).');
 
-  if(userNumb === corrNumb){
+  if (userNumb === corrNumb) {
     alert('That\'s right!!!.');
     break;
 
-  }if(userNumb > corrNumb){
+  }
+  if (userNumb > corrNumb) {
     alert('That\'s too high, try again.');
 
-  }if(userNumb < corrNumb){
+  }
+  if (userNumb < corrNumb) {
     alert('That\'s too low, try again.');
 
-  }if(countAtt === 5) {
+  }
+  if (countAtt === 5) {
     alert('Sorry that was the last guess.');
   }
 }
@@ -159,14 +155,14 @@ while (count < 6) {
     alert(arr[i]);
   }
 }
-
+//Broken Code
 // var num = 0;
 // var quesCor = num.toString();
 // var toScor = 0;
 // var arra = [];
 // for (k = 0; k < arra.length; k++) {
 //   quesCor = quesCor++;
-  // toScor = toScor++;
+// toScor = toScor++;
 // }
 //
 // console.log(quesCor, toScor);
