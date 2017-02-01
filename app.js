@@ -64,6 +64,7 @@ var userAnswer = ['javascript', 'python', 'java', 'c'];
 
 if (userAnswer.indexOf(whichLang) > -1) {
 
+  toScor += 1;
   alert('You\'re on your way to tech greatness!');
 
 } else if (userAnswer.indexOf(whichLang) === -1) {
