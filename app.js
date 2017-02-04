@@ -7,12 +7,11 @@
 
 // console.log(userName);
 
-//Question 1
-//start question1 function
-function question1() {
+// Question 1
+// start question1 function
 var toScor = 0;
 var userName = prompt('what\'s is your name?');
-
+function question1() {
 alert('Hello ' + userName + '.  Thank you for visiting to my site!');
 
 
@@ -30,18 +29,18 @@ if (answerOne === myAnswerOne) {
 
 }
 // // Question 2
-var answerTwo = prompt('Do you I collect comics as a hobby?');
-var myAnswerTwo = 'comics';
+var answerTwo = prompt('Do I collect comics as a hobby?').toLowerCase();
+var myAnswerTwo = 'yes';
 if (answerTwo === myAnswerTwo) {
   toScor += 1;
-  alert('Right again!');
+  alert('Right on, you have potential!');
 
 } else {
 
   alert('Sorry, that\'s wrong, maybe next time!');
 }
 // Qustion 3
-var answerThree = prompt('Is the desert arid?').toLowerCase();
+var answerThree = prompt('What color is my SUV?').toLowerCase();
 var myAnswerThree = 'tan';
 if (answerThree === myAnswerThree) {
 
@@ -83,7 +82,7 @@ if (userAnswer.indexOf(whichLang) > -1) {
 
 } else if (userAnswer.indexOf(whichLang) === -1) {
   alert('Learn to code or stay in yesteryear!');
-  console.log('User score is ' + toScor + 'so far.');
+  console.log('User score is ' + toScor + ' so far.');
 
 }
 // Question 6
@@ -188,7 +187,7 @@ while (count < 6) {
 console.log(arr[i]);
 }
 //call questionTwo function
-questionTwo()
+questionTwo();
 //Keep score and show user results
 if (toScor === 8) {
 
