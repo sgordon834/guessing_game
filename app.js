@@ -1,19 +1,12 @@
 //Script to obtain user input
 //Start Game
-
-
-// answerOne = question1();
-
-
-// console.log(userName);
-
-// Question 1
 // start question1 function
 var toScor = 0;
 var userName = prompt('what\'s is your name?');
 function question1() {
 alert('Hello ' + userName + '.  Thank you for visiting to my site!');
 
+// Question 1
 
 var answerOne = prompt('Is Washington the \'Show Me State\'?');
 
@@ -127,11 +120,15 @@ while (countAtt < 4) {
     alert('That\'s too low, try again.');
 
   }
+  if (countAtt === 3) {
+    alert('This is your last attempt!');
+
+  }
   if (countAtt === 4) {
     alert('Sorry that was the last guess.');
   }
 }
-console.log(16);
+console.log(toScor);
 // Question 8
 var count = 0;
 var arr = ['florida', 'new jersey', 'hawaii', 'alaska', 'virginia', 'arizona'];
