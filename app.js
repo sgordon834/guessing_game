@@ -98,25 +98,25 @@ if (answerOne === myAnswerOne || answerOne === myAnswerTwo) {
   alert('That\'s not correct, try again.');
 }
 // Question 7
-var corrNumb = 16;
+var ranNum = Math.floor(Math.random() * 20) + 1;
 var countAtt = 0;
 
 while (countAtt < 4) {
   countAtt++;
-  var userNumb = prompt('Select a number between 1 - 25 (you have 4 guesses).');
+  var userNumb = prompt('Select a number between 1 - 20 (you have 4 guesses).');
 
-  if (parseInt(userNumb) === corrNumb) {
+  if (parseInt(userNumb) === ranNum) {
 
     toScor += 1;
     alert('That\'s right!!!.');
     break;
 
   }
-  if (parseInt(userNumb) > corrNumb) {
+  if (parseInt(userNumb) > ranNum) {
     alert('That\'s too high, try again.');
 
   }
-  if (parseInt(userNumb) < corrNumb) {
+  if (parseInt(userNumb) < ranNum) {
     alert('That\'s too low, try again.');
 
   }
@@ -186,10 +186,9 @@ while (count < 6) {
   }
 }
 console.log(arr[i]);
-}
-//call questionTwo function
-questionTwo();
-//Keep score and show user results
+
+
+
 if (toScor === 8) {
 
   alert('You got 8 of 8 correct, ' + userName + ' great going!');
@@ -226,4 +225,8 @@ if (toScor === 8) {
 
   alert('You got 0 of 8 correct, ' + userName + ' try again.');
 }
+}
+//call questionTwo function
+questionTwo();
+//Keep score and show user results
 console.log(toScor);
